@@ -3,4 +3,10 @@ project(CLion)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CLion main.cpp)
+add_executable(Run main.cpp)
+
+include_directories(Fib_lib)
+add_subdirectory(Fib_lib)
+target_link_libraries(Run Fib_lib)
+
+add_subdirectory(Catch_tests)
