@@ -22,5 +22,5 @@ TEST_CASE("get correct Fibonacci", "[]"){
     CHECK(result4 != 5);
 
 //    uncomment the following to see error
-    CHECK(result4 == 5);
+//    CHECK(result4 == 5);
 }
