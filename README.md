@@ -4,9 +4,9 @@ A CLion starter project with Catch2 configured.
 
 ## How to run test:
 1. Navigate to the `FibTest.cpp` in the `/Catch_tests` folder.
-2. Click `>` to the left of `TEST_CASE("get correct Fibonacci", "[]"){` and select `Run ...`. You should see the following output in your console.
-   
+2. Click `>` to the left of `TEST_CASE("get correct Fibonacci", "[]"){` and select `Run ...`.
    ![](https://github.com/JialunC/CLion/blob/master/statics/CLion_GUI.png)
+   You should see the following output in your console.
    ```
    /Users/tom/Documents/NYU/CLion/cmake-build-debug/Catch_tests/Catch_tests_run -r xml -d yes --order lex "get correct Fibonacci"
    Testing started at 18:38 ...
