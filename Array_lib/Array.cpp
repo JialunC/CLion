@@ -10,3 +10,27 @@ void reverseArray(int arr[], int arrSize) {
         arr[i] = temp;
     }
 }
+
+void removeOdd(int arr[], int& arrSize) {
+    int counter = 0;
+    for (int i=0; i < arrSize; i++) {
+        if (arr[i] % 2 == 0) {
+            arr[counter] = arr[i];
+            counter++;
+        }
+    }
+    arrSize = counter;
+}
+
+void splitParity(int arr[], int arrSize) {
+    int pointer = 0;
+    for (int i=0; i < arrSize; i++) {
+        if (arr[i] % 2 == 1) {
+            int temp = arr[i];
+            arr[i] = arr[pointer];
+            arr[pointer] = temp;
+            pointer++;
+        }
+
+    }
+}

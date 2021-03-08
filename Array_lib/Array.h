@@ -6,5 +6,8 @@
 #define CLION_ARRAY_H
 
 void reverseArray(int arr[], int arrSize);
+void removeOdd(int arr[], int& arrSize);
+void splitParity(int arr[], int arrSize);
+
 
 #endif //CLION_ARRAY_H
